@@ -1,0 +1,57 @@
+{
+  "name": "MasterPiano",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "native-base": "^2.12.1",
+    "process": "^0.11.10",
+    "react": "16.6.3",
+    "react-native": "^0.59.1",
+    "react-native-audio-toolkit": "^1.0.6",
+    "react-native-cache-image": "^1.0.0",
+    "react-native-firebase": "^5.2.0",
+    "react-native-fs": "^2.13.3",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-photo-upload": "^1.3.0",
+    "react-native-play-sound": "^1.0.24",
+    "react-native-tcp": "^3.3.0",
+    "react-navigation": "^3.0.9",
+    "readable-stream": "^1.0.33",
+    "stream": "^0.0.2",
+    "stream-browserify": "^2.0.2",
+    "url-parse": "^1.4.4"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3",
+    "rn-nodeify": "^10.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "isSwift": true,
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "net": "react-native-tcp"
+  }
+}
